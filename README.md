@@ -41,9 +41,14 @@ O K-Prototypes é uma combinação do K-Means e do K-Modes. Essa técnica é ide
 
 # Sobre o notebook
 
-* Como funciona o cálculo dessa dissimilaridade?
-* Como exatamente o algoritmo escolhe os clusters lidando com essa dissimilaridade?
-* Como escolhemos o valor de K nesse caso e avaliamos a clusterização?
-* Como podemos visualizar a clusterização e interpretá-la?
+Temos abaixo o gráfico do cotovelo para o K-Modes:
 
-O estudo presente neste notebook visa responder essas e outras perguntas, alternando entre explicação e implementação!
+![K-modes Elbow Plot](imagens/elbow_kmodes.png "K-modes Elbow Plot")
+
+Veremos como fazer esse gráfico e escolher o valor de K com base nele quando estamos lidando com dados categóricos na clusterização.
+
+Abaixo temos o resultado do UMAP (uma técnica de redução de dimensionalidade) para uma clusterização de 4 clusters com o K-Prototypes. Veremos como fazer esse gráfico e como ele pode nos ajudar a interpretar os resultados da nossa clusterização.
+
+![UMAP com K-Prototypes](imagens/umap4clusters.png "UMAP com K-Prototypes")
+
+Além disso, veremos o funcionamento detalhado dos algoritmos, como funciona o cálculo da dissimilaridade usada, entre várias outras coisas, sempre alternando entre explicação e implementação!
