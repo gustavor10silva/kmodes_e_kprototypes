@@ -43,7 +43,7 @@ O K-Prototypes é uma combinação do K-Means e do K-Modes. Essa técnica é ide
 
 Temos abaixo o gráfico do cotovelo para o K-Modes:
 
-![K-modes Elbow Plot](imagens/elbow_kmodes.png "K-modes Elbow Plot")
+![K-modes Elbow Plot](imagens/elbow_plot_kmodes.png "K-modes Elbow Plot")
 
 Veremos como fazer esse gráfico e escolher o valor de K com base nele quando estamos lidando com dados categóricos na clusterização.
 
