@@ -1,6 +1,6 @@
 # Descrição do repositório
 
-Este repositório armazena um notebook sobre K-Modes e K-Prototypes, que são dois algoritmos de clusterização. O notebook contém um estudo sobre esse tema desenvolvido no âmbito do grupo CiDAMO, com a orientação do Profº Lucas Pedroso. O notebook contempla:
+Este repositório armazena um notebook sobre K-Modes e K-Prototypes, que são dois algoritmos de clusterização, além do uso da técnica de redução de dimensionalidade UMAP para interpretar a clusterização. O notebook contém um estudo sobre esse tema desenvolvido no âmbito do grupo CiDAMO, com a orientação do Profº Lucas Pedroso. O notebook contempla:
 
 ```
 1 Introdução
